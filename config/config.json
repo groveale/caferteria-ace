@@ -17,20 +17,11 @@
           "manifest": "./src/adaptiveCardExtensions/helloCafeteriaBonus/HelloCafeteriaBonusAdaptiveCardExtension.manifest.json"
         }
       ]
-    },
-    "cafeteria-4-adaptive-card-extension": {
-      "components": [
-        {
-          "entrypoint": "./lib/adaptiveCardExtensions/cafeteria4/Cafeteria4AdaptiveCardExtension.js",
-          "manifest": "./src/adaptiveCardExtensions/cafeteria4/Cafeteria4AdaptiveCardExtension.manifest.json"
-        }
-      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "HelloCafeteriaAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/helloCafeteria/loc/{locale}.js",
-    "HelloCafeteriaBonusAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/helloCafeteriaBonus/loc/{locale}.js",
-    "Cafeteria4AdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/cafeteria4/loc/{locale}.js"
+    "HelloCafeteriaBonusAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/helloCafeteriaBonus/loc/{locale}.js"
   }
 }
