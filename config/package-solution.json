@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "caferteria-ace-client-side-solution",
+    "id": "c66dc30e-cc4a-48df-85a1-c83eb0447a72",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "caferteria-ace description"
+      },
+      "longDescription": {
+        "default": "caferteria-ace description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "caferteria-ace Feature",
+        "description": "The feature that activates elements of the caferteria-ace solution.",
+        "id": "4dccdd72-8cd6-4968-a330-9d0928afa365",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/caferteria-ace.sppkg"
+  }
+}

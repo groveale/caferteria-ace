@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "caferteria-ace",
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "PrimaryText",
+    "componentName": "Cafeteria4",
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "caferteria-ace",
+    "libraryId": "c66dc30e-cc4a-48df-85a1-c83eb0447a72",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "caferteria-ace description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
