@@ -6,6 +6,8 @@ declare interface IHelloCafeteriaAdaptiveCardExtensionStrings {
   PrimaryText: string;
   Description: string;
   QuickViewButton: string;
+  ListTitleFieldLabel: string;
+  ImageURLFieldLabel: string;
 }
 
 declare module 'HelloCafeteriaAdaptiveCardExtensionStrings' {

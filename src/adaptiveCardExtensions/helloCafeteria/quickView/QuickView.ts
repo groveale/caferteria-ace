@@ -28,12 +28,6 @@ export class QuickView extends BaseAdaptiveCardView<
             "title" : "Italian Cuisine",
             "description" : "Description for the peruvian cuisine",
             "imageUrl" : "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/pizza.jpg"
-        },
-        {
-            "day" : "Wednesday",
-            "title" : "American Cuisine",
-            "description" : "Description for the american cuisine",
-            "imageUrl" : "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/burgers.jpg"
         }
       ],
       "restaurant_name": "The Bootcamp",

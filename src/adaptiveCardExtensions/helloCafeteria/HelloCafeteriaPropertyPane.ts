@@ -12,6 +12,12 @@ export class HelloCafeteriaPropertyPane {
               groupFields: [
                 PropertyPaneTextField('title', {
                   label: strings.TitleFieldLabel
+                }),
+                PropertyPaneTextField('listTitle', {
+                  label: strings.ListTitleFieldLabel
+                }),
+                PropertyPaneTextField('imageURL', {
+                  label: strings.ImageURLFieldLabel
                 })
               ]
             }

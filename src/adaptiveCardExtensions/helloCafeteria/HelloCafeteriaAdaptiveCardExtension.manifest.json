@@ -21,7 +21,9 @@
     "officeFabricIconFontName": "EatDrink",
     //"iconImageUrl": "https://res.cdn.office.net/files/fabric-cdn-prod_20230308.001/assets/brand-icons/product-monoline/svg/vivaconnections_32x1.svg",
     "properties": {
-      "title": "Cafeteria Lab4"
+      "title": "Cafeteria Lab7",
+      "listTitle": "CafeteriaList",
+      "imageURL": "https://reckittstorage.blob.core.windows.net/viva-connections-icons/lunchImage.svg"
     },
     "cardSize": "Large"
   }]

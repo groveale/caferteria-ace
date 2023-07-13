@@ -1,13 +1,13 @@
 import {
-  BasePrimaryTextCardView,
-  IPrimaryTextCardParameters,
+  BaseImageCardView,
+  IImageCardParameters,
   IExternalLinkCardAction,
   IQuickViewCardAction,
   ICardButton
 } from '@microsoft/sp-adaptive-card-extension-base';
 import { IHelloCafeteriaAdaptiveCardExtensionProps, IHelloCafeteriaAdaptiveCardExtensionState, QUICK_VIEW_REGISTRY_ID } from '../HelloCafeteriaAdaptiveCardExtension';
 
-export class CardView extends BasePrimaryTextCardView<IHelloCafeteriaAdaptiveCardExtensionProps, IHelloCafeteriaAdaptiveCardExtensionState> {
+export class CardView extends BaseImageCardView<IHelloCafeteriaAdaptiveCardExtensionProps, IHelloCafeteriaAdaptiveCardExtensionState> {
   public get cardButtons(): [ICardButton] | [ICardButton, ICardButton] | undefined {
     return [
       {
@@ -22,10 +22,10 @@ export class CardView extends BasePrimaryTextCardView<IHelloCafeteriaAdaptiveCar
     ];
   }
 
-  public get data(): IPrimaryTextCardParameters {
+  public get data(): IImageCardParameters {
     return {
-      primaryText: "Taco Tuesday",
-      description: "We have Tacos and other tasty mexican food for you today!",
+      primaryText: "Bootcamp Cafe",
+      imageUrl: this.properties.imageURL,
       title: this.properties.title
     };
   }

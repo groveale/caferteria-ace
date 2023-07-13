@@ -6,6 +6,8 @@ import { HelloCafeteriaPropertyPane } from './HelloCafeteriaPropertyPane';
 
 export interface IHelloCafeteriaAdaptiveCardExtensionProps {
   title: string;
+  listTitle: string;
+  imageURL: string
 }
 
 export interface IHelloCafeteriaAdaptiveCardExtensionState {
@@ -22,6 +24,8 @@ export default class HelloCafeteriaAdaptiveCardExtension extends BaseAdaptiveCar
 
   public onInit(): Promise<void> {
     this.state = { };
+
+    console.log(`this.properties.listTitle: ${this.properties.listTitle}`);
 
     this.cardNavigator.register(CARD_VIEW_REGISTRY_ID, () => new CardView());
     this.quickViewNavigator.register(QUICK_VIEW_REGISTRY_ID, () => new QuickView());
